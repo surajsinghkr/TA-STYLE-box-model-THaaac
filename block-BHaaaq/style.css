@@ -1,0 +1,121 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1{
+    font-size: 24px;
+}
+.block1{
+    width: 50px;
+    height: 40px;
+    background-color: red;
+    display: block;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin: 20px;
+}
+.block2{
+    width: 50px;
+    height: 40px;
+    background-color: red;
+    display: inline-block;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin: 20px;
+}
+.block3{
+    width: 50px;
+    height: 40px;
+    background-color: red;
+    border-width: 2px;
+    border-color: black;
+    border-style: dashed;
+    margin: 20px;
+    display: inline-block;
+}
+.block4{
+    width: 50px;
+    height: 40px;
+    background-color: red;
+    display: inline-block;
+    border-width: 2px;
+    border-color: black;
+    border-style: dotted;
+    margin: 20px;
+}
+.block5{
+    width: 50px;
+    height: 40px;
+    background-color: red;
+    display: inline-block;
+    border-width: 2px;
+    margin: 20px;
+}
+.paragraph-box{
+    width: 150px;
+    height: 300px;
+    background-color: red;
+    border-style: solid;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-left-color: green;
+    border-right-color: grey;
+    border-top-color: blue;
+    border-bottom-color: yellow;
+    font-size: 14px;
+    color: white;
+}
+.paragraph-container{
+    width: auto;
+    height: auto;
+    border-style: solid;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    display: inline-block;
+    border-color: rebeccapurple;
+}
